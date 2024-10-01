@@ -1,0 +1,16 @@
+#main{
+    box-sizing: border-box;
+    
+    
+    height: 100px;
+    width: 100px;
+    border: 5px;
+   
+    border: dashed;
+    border-color: blue;
+    background-color: orange;
+    padding:10px;
+    margin: 20px;
+   
+
+}

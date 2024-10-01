@@ -1,0 +1,43 @@
+/* Apply a reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+  font-family: Arial, sans-serif; /* Default fallback font */
+}
+
+/* Style for nav and its contents */
+nav {
+  padding: 20px;
+  background-color: rgb(255, 226, 226); /* Light background for visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Font styling for navigation */
+.nav-left {
+  font-family: 'Protest Guerrilla', cursive;
+  font-size: 24px; /* Adjust size as needed */
+}
+
+/* Main content styling */
+#main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add some space between sections */
+  padding: 20px;
+}
+
+/* Individual section styles */
+.content-section {
+  flex: 1;
+  min-width: 100px; /* Minimum width for responsiveness */
+  height: 100px; /* Set height or adjust as needed */
+  background-color: #e0e0e0; /* Light grey background */
+  border: 1px solid #ccc; /* Light border for definition */
+}
